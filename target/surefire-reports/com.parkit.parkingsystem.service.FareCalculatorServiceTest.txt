@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.parkit.parkingsystem.service.FareCalculatorServiceTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.017 s <<< FAILURE! - in com.parkit.parkingsystem.service.FareCalculatorServiceTest
+calculateFareCarWithLessThanOneHourParkingTime  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.parkit.parkingsystem.dao.FideliteDAO.getFidelite(String)" because "this.fideliteDAO" is null
+	at com.parkit.parkingsystem.service.FareCalculatorServiceTest.calculateFareCarWithLessThanOneHourParkingTime(FareCalculatorServiceTest.java:108)
+
+calculateFareCar  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.parkit.parkingsystem.dao.FideliteDAO.getFidelite(String)" because "this.fideliteDAO" is null
+	at com.parkit.parkingsystem.service.FareCalculatorServiceTest.calculateFareCar(FareCalculatorServiceTest.java:40)
+
+calculateFareBike  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.parkit.parkingsystem.dao.FideliteDAO.getFidelite(String)" because "this.fideliteDAO" is null
+	at com.parkit.parkingsystem.service.FareCalculatorServiceTest.calculateFareBike(FareCalculatorServiceTest.java:54)
+
+calculateFareCarWithMoreThanADayParkingTime  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.parkit.parkingsystem.dao.FideliteDAO.getFidelite(String)" because "this.fideliteDAO" is null
+	at com.parkit.parkingsystem.service.FareCalculatorServiceTest.calculateFareCarWithMoreThanADayParkingTime(FareCalculatorServiceTest.java:122)
+
+calculateFareBikeWithLessThanOneHourParkingTime  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.parkit.parkingsystem.dao.FideliteDAO.getFidelite(String)" because "this.fideliteDAO" is null
+	at com.parkit.parkingsystem.service.FareCalculatorServiceTest.calculateFareBikeWithLessThanOneHourParkingTime(FareCalculatorServiceTest.java:94)
+

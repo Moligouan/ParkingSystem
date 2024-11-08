@@ -1,0 +1,129 @@
+-------------------------------------------------------------------------------
+Test set: com.parkit.parkingsystem.service.ParkingServiceTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 9, Skipped: 0, Time elapsed: 0.09 s <<< FAILURE! - in com.parkit.parkingsystem.service.ParkingServiceTest
+testGetNextParkingNumberIfAvailableInvalidVehicleType  Time elapsed: 0.003 s  <<< ERROR!
+org.mockito.exceptions.misusing.UnnecessaryStubbingException: 
+
+Unnecessary stubbings detected.
+Clean & maintainable test code requires zero unnecessary code.
+Following stubbings are unnecessary (click to navigate to relevant line of code):
+  1. -> at com.parkit.parkingsystem.service.ParkingServiceTest.setUpPerTest(ParkingServiceTest.java:37)
+  2. -> at com.parkit.parkingsystem.service.ParkingServiceTest.setUpPerTest(ParkingServiceTest.java:44)
+  3. -> at com.parkit.parkingsystem.service.ParkingServiceTest.setUpPerTest(ParkingServiceTest.java:45)
+  4. -> at com.parkit.parkingsystem.service.ParkingServiceTest.setUpPerTest(ParkingServiceTest.java:47)
+Please remove unnecessary stubbings or use 'lenient' strictness. More info: javadoc for UnnecessaryStubbingException class.
+
+testGetNextParkingNumberIfAvailableSuccess  Time elapsed: 0 s  <<< ERROR!
+org.mockito.exceptions.misusing.UnnecessaryStubbingException: 
+
+Unnecessary stubbings detected.
+Clean & maintainable test code requires zero unnecessary code.
+Following stubbings are unnecessary (click to navigate to relevant line of code):
+  1. -> at com.parkit.parkingsystem.service.ParkingServiceTest.setUpPerTest(ParkingServiceTest.java:37)
+  2. -> at com.parkit.parkingsystem.service.ParkingServiceTest.setUpPerTest(ParkingServiceTest.java:44)
+  3. -> at com.parkit.parkingsystem.service.ParkingServiceTest.setUpPerTest(ParkingServiceTest.java:45)
+  4. -> at com.parkit.parkingsystem.service.ParkingServiceTest.setUpPerTest(ParkingServiceTest.java:47)
+Please remove unnecessary stubbings or use 'lenient' strictness. More info: javadoc for UnnecessaryStubbingException class.
+
+testGetNextParkingNumberIfAvailableSuccess2  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <CAR> but was: <BIKE>
+	at com.parkit.parkingsystem.service.ParkingServiceTest.testGetNextParkingNumberIfAvailableSuccess2(ParkingServiceTest.java:130)
+
+processExitingVehicleThrowsExceptionTest  Time elapsed: 0.01 s  <<< ERROR!
+org.mockito.exceptions.misusing.UnnecessaryStubbingException: 
+
+Unnecessary stubbings detected.
+Clean & maintainable test code requires zero unnecessary code.
+Following stubbings are unnecessary (click to navigate to relevant line of code):
+  1. -> at com.parkit.parkingsystem.service.ParkingServiceTest.setUpPerTest(ParkingServiceTest.java:45)
+  2. -> at com.parkit.parkingsystem.service.ParkingServiceTest.setUpPerTest(ParkingServiceTest.java:47)
+  3. -> at com.parkit.parkingsystem.service.ParkingServiceTest.processExitingVehicleThrowsExceptionTest(ParkingServiceTest.java:176)
+Please remove unnecessary stubbings or use 'lenient' strictness. More info: javadoc for UnnecessaryStubbingException class.
+
+testProcessIncomingVehicleThrowsException  Time elapsed: 0.018 s  <<< ERROR!
+org.mockito.exceptions.misusing.UnnecessaryStubbingException: 
+
+Unnecessary stubbings detected.
+Clean & maintainable test code requires zero unnecessary code.
+Following stubbings are unnecessary (click to navigate to relevant line of code):
+  1. -> at com.parkit.parkingsystem.service.ParkingServiceTest.setUpPerTest(ParkingServiceTest.java:37)
+  2. -> at com.parkit.parkingsystem.service.ParkingServiceTest.setUpPerTest(ParkingServiceTest.java:44)
+  3. -> at com.parkit.parkingsystem.service.ParkingServiceTest.setUpPerTest(ParkingServiceTest.java:45)
+  4. -> at com.parkit.parkingsystem.service.ParkingServiceTest.setUpPerTest(ParkingServiceTest.java:47)
+Please remove unnecessary stubbings or use 'lenient' strictness. More info: javadoc for UnnecessaryStubbingException class.
+
+testGetNextParkingNumberIfAvailableThrowsException  Time elapsed: 0.019 s  <<< ERROR!
+org.mockito.exceptions.misusing.UnnecessaryStubbingException: 
+
+Unnecessary stubbings detected.
+Clean & maintainable test code requires zero unnecessary code.
+Following stubbings are unnecessary (click to navigate to relevant line of code):
+  1. -> at com.parkit.parkingsystem.service.ParkingServiceTest.setUpPerTest(ParkingServiceTest.java:37)
+  2. -> at com.parkit.parkingsystem.service.ParkingServiceTest.setUpPerTest(ParkingServiceTest.java:44)
+  3. -> at com.parkit.parkingsystem.service.ParkingServiceTest.setUpPerTest(ParkingServiceTest.java:45)
+  4. -> at com.parkit.parkingsystem.service.ParkingServiceTest.setUpPerTest(ParkingServiceTest.java:47)
+Please remove unnecessary stubbings or use 'lenient' strictness. More info: javadoc for UnnecessaryStubbingException class.
+
+testGetNextParkingNumberIfAvailableNoSpotAvailable  Time elapsed: 0.008 s  <<< ERROR!
+org.mockito.exceptions.misusing.UnnecessaryStubbingException: 
+
+Unnecessary stubbings detected.
+Clean & maintainable test code requires zero unnecessary code.
+Following stubbings are unnecessary (click to navigate to relevant line of code):
+  1. -> at com.parkit.parkingsystem.service.ParkingServiceTest.setUpPerTest(ParkingServiceTest.java:37)
+  2. -> at com.parkit.parkingsystem.service.ParkingServiceTest.setUpPerTest(ParkingServiceTest.java:44)
+  3. -> at com.parkit.parkingsystem.service.ParkingServiceTest.setUpPerTest(ParkingServiceTest.java:45)
+  4. -> at com.parkit.parkingsystem.service.ParkingServiceTest.setUpPerTest(ParkingServiceTest.java:47)
+Please remove unnecessary stubbings or use 'lenient' strictness. More info: javadoc for UnnecessaryStubbingException class.
+
+testProcessIncomingVehicleNoParkingSpotAvailable  Time elapsed: 0.011 s  <<< ERROR!
+org.mockito.exceptions.misusing.WrongTypeOfReturnValue: 
+
+null cannot be returned by readSelection()
+readSelection() should return int
+***
+If you're unsure why you're getting above error read on.
+Due to the nature of the syntax above problem might occur because:
+1. This exception *might* occur in wrongly written multi-threaded tests.
+   Please refer to Mockito FAQ on limitations of concurrency testing.
+2. A spy is stubbed using when(spy.foo()).then() syntax. It is safer to stub spies - 
+   - with doReturn|Throw() family of methods. More in javadocs for Mockito.spy() method.
+
+	at com.parkit.parkingsystem.service.ParkingServiceTest.testProcessIncomingVehicleNoParkingSpotAvailable(ParkingServiceTest.java:77)
+
+testProcessIncomingVehicle  Time elapsed: 0 s  <<< ERROR!
+org.mockito.exceptions.misusing.PotentialStubbingProblem: 
+
+Strict stubbing argument mismatch. Please check:
+ - this invocation of 'updateParking' method:
+    parkingSpotDAO.updateParking(null);
+    -> at com.parkit.parkingsystem.service.ParkingServiceTest.testProcessIncomingVehicle(ParkingServiceTest.java:197)
+ - has following stubbing(s) with different arguments:
+    1. parkingSpotDAO.updateParking(null);
+      -> at com.parkit.parkingsystem.service.ParkingServiceTest.setUpPerTest(ParkingServiceTest.java:47)
+Typically, stubbing argument mismatch indicates user mistake when writing tests.
+Mockito fails early so that you can debug potential problem easily.
+However, there are legit scenarios when this exception generates false negative signal:
+  - stubbing the same method multiple times using 'given().will()' or 'when().then()' API
+    Please use 'will().given()' or 'doReturn().when()' API for stubbing.
+  - stubbed method is intentionally invoked with different arguments by code under test
+    Please use default or 'silent' JUnit Rule (equivalent of Strictness.LENIENT).
+For more information see javadoc for PotentialStubbingProblem class.
+	at com.parkit.parkingsystem.service.ParkingServiceTest.testProcessIncomingVehicle(ParkingServiceTest.java:197)
+
+testProcessIncomingVehicleSuccess  Time elapsed: 0.017 s  <<< ERROR!
+org.mockito.exceptions.misusing.WrongTypeOfReturnValue: 
+
+ParkingSpot cannot be returned by readSelection()
+readSelection() should return int
+***
+If you're unsure why you're getting above error read on.
+Due to the nature of the syntax above problem might occur because:
+1. This exception *might* occur in wrongly written multi-threaded tests.
+   Please refer to Mockito FAQ on limitations of concurrency testing.
+2. A spy is stubbed using when(spy.foo()).then() syntax. It is safer to stub spies - 
+   - with doReturn|Throw() family of methods. More in javadocs for Mockito.spy() method.
+
+	at com.parkit.parkingsystem.service.ParkingServiceTest.testProcessIncomingVehicleSuccess(ParkingServiceTest.java:60)
+
